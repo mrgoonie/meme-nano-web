@@ -88,6 +88,55 @@ If you want to add server-side API keys for demo purposes, create a `.env.local`
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
+## Deployment
+
+### Quick Deploy to Vercel (Recommended)
+
+The easiest way to deploy MemeNano:
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy to production
+vercel --prod
+```
+
+Or use the deploy button:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/meme-nano-web)
+
+**[📖 Full Vercel Deployment Guide →](./docs/DEPLOYMENT_VERCEL.md)**
+
+### Deploy to VPS with Docker
+
+For self-hosting with complete control:
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/meme-nano-web.git
+cd meme-nano-web
+
+# Start with Docker Compose
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+```
+
+**[📖 Full VPS Deployment Guide →](./docs/DEPLOYMENT_VPS.md)**
+
+### Other Deployment Options
+
+MemeNano can be deployed to any platform that supports Next.js:
+
+- **Netlify** - JAMstack platform
+- **Railway** - Simplified cloud hosting
+- **Render** - Modern cloud provider
+- **AWS/GCP/Azure** - Enterprise cloud platforms
+
+**[📖 All Deployment Options →](./docs/DEPLOYMENT.md)**
+
 ## Development Workflow
 
 ### Available Scripts

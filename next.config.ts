@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
     ],
   },
   outputFileTracingRoot: require('path').join(__dirname),
+  output: 'standalone',
 }
 
 export default nextConfig
