@@ -2,6 +2,8 @@
 
 MemeNano is an AI-powered web application that simplifies meme creation. Instead of searching for templates and thinking up captions yourself, simply describe your meme idea and let AI handle the rest - generating multiple humorous and relevant memes instantly.
 
+![MemeNano Demo](./demo.jpeg)
+
 ## Features
 
 - **AI-Powered Generation**: Describe your meme idea in plain text and get 4 unique memes
