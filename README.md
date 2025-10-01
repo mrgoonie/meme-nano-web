@@ -31,7 +31,7 @@ MemeNano is an AI-powered web application that simplifies meme creation. Instead
 
 ### External APIs
 - **Google Gemini API**
-  - `gemini-2.0-flash-exp` - Prompt analysis and caption generation
+  - `gemini-2.5-flash` - Prompt analysis and caption generation
   - `gemini-2.5-flash-image-preview` - Image generation and text overlay
 - **Imgflip API** - Meme template database
 

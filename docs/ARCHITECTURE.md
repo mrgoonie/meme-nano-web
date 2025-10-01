@@ -182,7 +182,7 @@ meme-nano-web/
    ├─→ POST /api/analyze
    │   ├─→ Headers: Authorization Bearer {apiKey}
    │   ├─→ Body: { prompt }
-   │   ├─→ Server calls Gemini API (gemini-2.0-flash-exp)
+   │   ├─→ Server calls Gemini API (gemini-2.5-flash)
    │   ├─→ AI extracts keywords and generates captions
    │   └─→ Returns: { keywords: [], captionSets: [] }
    │
